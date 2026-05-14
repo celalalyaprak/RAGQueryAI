@@ -1,16 +1,18 @@
 /**
- * Filename: App.jsx
- * Author: Guan-Wei Huang
+ * Filename: server.js
+ * Author: Celal Alyaprak
  * Created: 2025-02-24
  * Version: 1.0.0
  * License: MIT
  * Description:
- *     This React component provides a simple UI for users to ask product-related questions.
- *     It sends user input to a backend API and displays the AI-generated response.
+ *     This script sets up an Express.js server that acts as a middleware
+ *     between the frontend and the Python RAG API. It handles requests and
+ *     forwards them to the Python backend.
  *
- * Contact: gwhuang24@gmail.com
- * GitHub: https://github.com/guan-wei-huang31
+ * Contact: celalalyaprak@gmail.com
+ * GitHub: https://github.com/celalalyaprak
  */
+ 
 
 import React, { useState } from "react";
 import axios from "axios";
