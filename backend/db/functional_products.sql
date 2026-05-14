@@ -1,17 +1,18 @@
-/*
-Filename: functional_products.sql
-Author: Guan-Wei Huang
-Created: 2025-02-24
-Version: 1.0.0
-License: MIT
-Description:
-    This SQL script initializes the database schema and populates data 
-    for functional products. It includes table creation, constraints, 
-    indexes, and sample data.
-
-Contact: gwhuang24@gmail.com
-GitHub: https://github.com/guan-wei-huang31
-*/
+/**
+ * Filename: server.js
+ * Author: Celal Alyaprak
+ * Created: 2025-02-24
+ * Version: 1.0.0
+ * License: MIT
+ * Description:
+ *     This script sets up an Express.js server that acts as a middleware
+ *     between the frontend and the Python RAG API. It handles requests and
+ *     forwards them to the Python backend.
+ *
+ * Contact: celalalyaprak@gmail.com
+ * GitHub: https://github.com/celalalyaprak
+ */
+ 
 
 
 CREATE TABLE Functional_Products (
