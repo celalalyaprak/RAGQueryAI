@@ -1,17 +1,17 @@
-/**
- * Filename: server.js
- * Author: Guan-Wei Huang
- * Created: 2025-02-24
- * Version: 1.0.0
- * License: MIT
- * Description:
- *     This script sets up an Express.js server that acts as a middleware
- *     between the frontend and the Python RAG API. It handles requests and
- *     forwards them to the Python backend.
- *
- * Contact: gwhuang24@gmail.com
- * GitHub: https://github.com/guan-wei-huang31
- */
+##############################################################################
+#Filename: rag_api.py
+#Author: Celal Alyapprak
+#Created: 2025-02-24
+#Version: 1.0.0
+#License: MIT
+#Description: 
+#    This script sets up a Flask API for retrieving product information using 
+#    a combination of structured SQL queries and vector-based retrieval (RAG).
+#    It integrates with SQLite and ChromaDB for efficient data retrieval.
+#    
+#Contact: celalalyaprak@gmail.com
+#GitHub: https://github.com/celalalyaprak
+##############################################################################
  
 const express = require("express");
 const cors = require("cors");
