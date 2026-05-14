@@ -1,6 +1,6 @@
 ##############################################################################
 #Filename: rag_api.py
-#Author: Guan-Wei Huang
+#Author: Celal Alyapprak
 #Created: 2025-02-24
 #Version: 1.0.0
 #License: MIT
@@ -9,8 +9,8 @@
 #    a combination of structured SQL queries and vector-based retrieval (RAG).
 #    It integrates with SQLite and ChromaDB for efficient data retrieval.
 #    
-#Contact: gwhuang24@gmail.com
-#GitHub: https://github.com/guan-wei-huang31
+#Contact: celalalyaprak@gmail.com
+#GitHub: https://github.com/celalalyaprak
 ##############################################################################
 
 from flask import Flask, request, jsonify
